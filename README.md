@@ -1,4 +1,4 @@
-#⚡🔌 Transformerless AC–DC Power Supply (5V & 12V) using 155J/630V Polyester Capacitor
+# ⚡🔌 Transformerless AC–DC Power Supply (5V & 12V) using 155J/630V Polyester Capacitor
 
 ![Timeline](https://img.shields.io/badge/Timeline-May_--_Jun_2024-8A2BE2)
 ![Simulation](https://img.shields.io/badge/Simulation-Proteus-blue)

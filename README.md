@@ -18,7 +18,8 @@ Proyek ini berfokus pada perancangan, simulasi, dan realisasi perangkat keras **
 #### Layout Desain PCB (Eagle)
 ![Layout Desain PCB (Eagle)](Documentation/Layout_Desain_PCB-Transformerless_AC-DC_Converter_5V-12V.png) <br>
 #### PCB Fisik (Transformerless AC–DC Power Supply (5V & 12V))
-![PCB Fisik (Transformerless AC–DC Power Supply (5V & 12V))](Documentation/PCB_Fisik-Transformerless_AC–DC_Power_Supply_(5V&12V))
+> "Tegangan keluaran hanya sebesar 0,003 V DC akibat terjadinya hubungan singkat (short circuit) pada jalur menuju rectifier. Hubungan singkat tersebut memicu ledakan yang memutus jalur PCB. Meskipun papan PCB telah diganti dengan jalur yang baru, kerusakan tetap terjadi pada komponen rectifier karena tidak segera dilakukan pengecekan komponen pasca-insiden."
+![PCB Fisik (Transformerless AC–DC Power Supply (5V & 12V))](Documentation/PCB_Fisik-Transformerless_AC–DC_Power_Supply_(5V&12V).jpg)
 
 ---
 

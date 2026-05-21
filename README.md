@@ -13,17 +13,21 @@ Proyek ini berfokus pada perancangan, simulasi, dan realisasi perangkat keras **
 
 ## 📸 Project Preview
 <!-- Ganti link di bawah dengan foto alat fisik atau hasil layout PCB -->
-![Foto Alat Fisik](https://via.placeholder.com/800x400?text=Foto+Alat+Fisik+Catu+Daya)
-
+#### Simulasi Rangkaian (Proteus Schematic)
+![Simulasi Rangkaian (Proteus Schematic)](Documentation/Documentation_Transformerless_AC-DC_Converter_5V-12V.png) <br>
+#### Layout Desain PCB (Eagle)
+![Layout Desain PCB (Eagle)](Documentation/Layout_Desain_PCB-Transformerless_AC-DC_Converter_5V-12V.png) <br>
+#### PCB Fisik (Transformerless AC–DC Power Supply (5V & 12V))
+![PCB Fisik (Transformerless AC–DC Power Supply (5V & 12V))](Documentation/PCB_Fisik-Transformerless_AC–DC_Power_Supply_(5V&12V))
 
 ---
 
 ## ✨ Fitur Utama & Tahapan Pengembangan
 
-1. **Simulasi & Verifikasi (Proteus)** 💻
+1. **Simulasi & Verifikasi (Proteus)** 💻 <br>
    Melakukan simulasi awal rangkaian menggunakan **Proteus** untuk memverifikasi stabilitas tegangan output, menganalisis kinerja tegangan riak (*ripple voltage*), dan memastikan keamanan sistem sebelum masuk ke tahap perakitan fisik.
 
-2. **Pemilihan Komponen Tepat (Kalkulasi Matematis)** 🧮
+2. **Pemilihan Komponen Tepat (Kalkulasi Matematis)** 🧮 <br>
    Menentukan nilai komponen kunci berdasarkan perhitungan kebutuhan arus beban, antara lain:
    * **Kapasitor Poliester (X-Rated):** 155J/630V sebagai pembatas arus utama.
    * **Penyearah:** Bridge Rectifier 2W10 (Penyearah gelombang penuh).
@@ -31,7 +35,7 @@ Proyek ini berfokus pada perancangan, simulasi, dan realisasi perangkat keras **
    * **Filter Kapasitor:** Elektrolit 1000µF/16V untuk meminimalisir *ripple*.
    * **Regulator Tegangan:** IC 7805 (Output 5V) & IC 7812 (Output 12V).
 
-3. **Desain PCB & Fabrikasi (Autodesk Eagle)** 🛠️
+3. **Desain PCB & Fabrikasi (Autodesk Eagle)** 🛠️ <br>
    Merancang tata letak jalur (*layout*) PCB menggunakan **Autodesk Eagle**, dilanjutkan dengan proses manufaktur mandiri (pengeboran/*drilling*), penyolderan komponen, serta pengujian pasca-perakitan untuk memvalidasi kesesuaian performa alat dengan data simulasi.
 
 ---
